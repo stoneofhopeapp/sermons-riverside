@@ -1,0 +1,46 @@
+name: Notify on sermon JSON changes
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ "**/*.json" ]   # fire on any JSON change
+
+permissions:
+  contents: read
+
+jobs:
+  email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed JSON files (excluding manifest.json)
+        id: changed
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            **/*.json
+          files_ignore: |
+            manifest.json
+
+      - name: Send email
+        if: steps.changed.outputs.any_changed == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "Sermon JSON updated: ${{ github.repository }}"
+          to: "YOUR_EMAIL@example.com"
+          from: "Sermon Bot <YOUR_EMAIL@example.com>"
+          body: |
+            Repo:   ${{ github.repository }}
+            Actor:  ${{ github.actor }}
+            Commit: ${{ github.sha }}
+            Link:   https://github.com/${{ github.repository }}/commit/${{ github.sha }}
+
+            Changed JSON files:
+            ${{ steps.changed.outputs.all_changed_files }}
