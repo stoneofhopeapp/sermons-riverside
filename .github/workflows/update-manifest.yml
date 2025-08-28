@@ -1,0 +1,62 @@
+name: Update/validate manifest
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ '**/*.json' ]   # run when any JSON changes
+  pull_request:
+    branches: [ main ]
+    paths: [ '**/*.json' ]
+  workflow_dispatch:          # allow manual Run workflow
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Rebuild manifest
+        run: |
+          python - <<'EOF'
+          import json, os
+          files = sorted(
+            f for f in os.listdir('.')
+            if f.endswith('.json') and f != 'manifest.json'
+          )
+          latest = max([f[:-5] for f in files], default=None)
+          with open("manifest.json", "w") as fp:
+            json.dump({"latestVersion": latest, "files": files}, fp, indent=2)
+          print("Built manifest with", len(files), "files")
+          EOF
+
+      # For PRs/branches: block merge if manifest would change (so contributors don't edit it)
+      - name: Fail if manifest is stale (non-main)
+        if: github.ref != 'refs/heads/main'
+        run: |
+          if [[ -n "$(git status --porcelain manifest.json)" ]]; then
+            echo "::error::manifest.json will be updated by CI after merge to main."
+            exit 1
+          fi
+
+      # On main: commit the updated manifest
+      - name: Commit manifest (main only)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          if [[ -n "$(git status --porcelain manifest.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add manifest.json
+            git commit -m "auto-update manifest"
+            git push
+          else
+            echo "No changes."
+          fi
