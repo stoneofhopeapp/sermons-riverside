@@ -34,8 +34,8 @@ jobs:
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: "Sermon JSON updated: ${{ github.repository }}"
-          to: "YOUR_EMAIL@example.com"
-          from: "Sermon Bot <YOUR_EMAIL@example.com>"
+          to: ${{ secrets.SMTP_USERNAME }}
+          from: "Sermon Bot - Riverside <${{ secrets.SMTP_USERNAME }}"
           body: |
             Repo:   ${{ github.repository }}
             Actor:  ${{ github.actor }}
