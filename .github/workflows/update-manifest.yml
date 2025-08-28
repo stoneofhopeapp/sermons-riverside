@@ -1,62 +1,57 @@
-name: Update/validate manifest
+name: Protect manifest.json
 
 on:
-  push:
-    branches: [ main ]
-    paths: [ '**/*.json' ]   # run when any JSON changes
   pull_request:
     branches: [ main ]
-    paths: [ '**/*.json' ]
-  workflow_dispatch:          # allow manual Run workflow
-
-permissions:
-  contents: write
+    paths: [ "manifest.json" ]
+  push:
+    branches: [ main ]
+    paths: [ "manifest.json" ]
 
 jobs:
-  rebuild:
+  # Block PRs that edit manifest.json
+  block_pr:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
+      - name: Fail if manifest.json is edited
+        run: |
+          echo "❌ manifest.json cannot be edited manually. It is auto-generated."
+          exit 1
+
+  # If someone pushes to main and changed manifest.json, auto-correct it
+  autocorrect_push:
+    if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        with: { fetch-depth: 0 }
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
-      - name: Rebuild manifest
+      - name: Rebuild manifest.json from dated JSONs
         run: |
           python - <<'EOF'
           import json, os
-          files = sorted(
-            f for f in os.listdir('.')
-            if f.endswith('.json') and f != 'manifest.json'
-          )
-          latest = max([f[:-5] for f in files], default=None)
-          with open("manifest.json", "w") as fp:
+          files = sorted(f for f in os.listdir('.') if f.endswith('.json') and f != 'manifest.json')
+          latest = max((f[:-5] for f in files), default=None)
+          with open('manifest.json','w') as fp:
             json.dump({"latestVersion": latest, "files": files}, fp, indent=2)
-          print("Built manifest with", len(files), "files")
+          print("Rebuilt manifest. Files:", len(files), "Latest:", latest)
           EOF
 
-      # For PRs/branches: block merge if manifest would change (so contributors don't edit it)
-      - name: Fail if manifest is stale (non-main)
-        if: github.ref != 'refs/heads/main'
+      - name: Commit corrected manifest
         run: |
           if [[ -n "$(git status --porcelain manifest.json)" ]]; then
-            echo "::error::manifest.json will be updated by CI after merge to main."
-            exit 1
-          fi
-
-      # On main: commit the updated manifest
-      - name: Commit manifest (main only)
-        if: github.ref == 'refs/heads/main'
-        run: |
-          if [[ -n "$(git status --porcelain manifest.json)" ]]; then
-            git config user.name "github-actions[bot]"
+            git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add manifest.json
-            git commit -m "auto-update manifest"
+            git commit -m "auto-correct manifest (manual edit reverted)"
             git push
           else
-            echo "No changes."
+            echo "Manifest already correct."
           fi
