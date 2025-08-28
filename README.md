@@ -19,19 +19,22 @@ This repository stores weekly sermon metadata for **Riverside Calvary Chapel**.
 Copy this structure (also available as `TEMPLATE.json`) and fill in every field:
 
 ```json
-{
-  "title": "",
-  "preacher": "",
-  "date": "",
-  "intro": "",
-  "audio_url": "",
-  "pdf_url": "",
-  "video_url": "",
-  "youtube_id": "",
-  "book_ord": null,
-  "chapter_range": "",
-  "chapters": []
-}
+[
+  {
+    "title": "",
+    "preacher": "",
+    "date": "",
+    "intro": "",
+    "audio_url": "",
+    "pdf_url": "",
+    "video_url": "",
+    "youtube_id": "",
+    "book_ord": null,
+    "chapter_range": "",
+    "chapters": []
+  }
+]
+
 ```
 
 ---
