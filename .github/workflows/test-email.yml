@@ -1,0 +1,22 @@
+name: Test Email
+
+on:
+  workflow_dispatch:   # lets you trigger manually
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send test email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "GitHub Actions Test Email"
+          to: "YOUR_EMAIL@gmail.com"
+          from: "Sermon Bot <${{ secrets.SMTP_USERNAME }}>"
+          body: |
+            ✅ This is a test email from GitHub Actions.
+            If you see this, SMTP secrets are working!
