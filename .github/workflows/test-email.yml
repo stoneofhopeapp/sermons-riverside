@@ -15,7 +15,7 @@ jobs:
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: "GitHub Actions Test Email"
-          to: "YOUR_EMAIL@gmail.com"
+          to: "stoneofhope.app@gmail.com"
           from: "Sermon Bot <${{ secrets.SMTP_USERNAME }}>"
           body: |
             ✅ This is a test email from GitHub Actions.
