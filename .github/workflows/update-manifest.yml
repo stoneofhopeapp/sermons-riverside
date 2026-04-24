@@ -1,57 +1,72 @@
+# manifest.json 仅由本 workflow 根据根目录下的 yyyymmdd.json 自动生成。
+# - 向 main push 任意 *.json（含新讲道文件）→ 重算 manifest 并在有变化时 commit + push
+# - PR 中若包含对 manifest.json 的手改 → 直接失败（请只改 dated JSON，manifest 交给 CI）
+
 name: Protect manifest.json
 
 on:
   pull_request:
-    branches: [ main ]
-    paths: [ "manifest.json" ]
+    branches: [main]
+    paths:
+      - "manifest.json"
   push:
-    branches: [ main ]
-    paths: [ "manifest.json" ]
+    branches: [main]
+    paths:
+      - "**/*.json"
+
+concurrency:
+  group: manifest-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  # Block PRs that edit manifest.json
   block_pr:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - name: Fail if manifest.json is edited
         run: |
-          echo "❌ manifest.json cannot be edited manually. It is auto-generated."
+          echo "❌ manifest.json cannot be edited manually. It is auto-generated from dated *.json files."
           exit 1
 
-  # If someone pushes to main and changed manifest.json, auto-correct it
-  autocorrect_push:
+  regenerate_manifest:
     if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Rebuild manifest.json from dated JSONs
+      - name: Rebuild manifest.json from dated sermon JSON files
         run: |
           python - <<'EOF'
           import json, os
-          files = sorted(f for f in os.listdir('.') if f.endswith('.json') and f != 'manifest.json')
+
+          files = sorted(
+              f
+              for f in os.listdir(".")
+              if f.endswith(".json") and f != "manifest.json"
+          )
           latest = max((f[:-5] for f in files), default=None)
-          with open('manifest.json','w') as fp:
-            json.dump({"latestVersion": latest, "files": files}, fp, indent=2)
-          print("Rebuilt manifest. Files:", len(files), "Latest:", latest)
+          payload = {"latestVersion": latest, "files": files}
+          with open("manifest.json", "w", encoding="utf-8") as fp:
+              json.dump(payload, fp, indent=2)
+          print("Rebuilt manifest. files=", len(files), "latestVersion=", latest)
           EOF
 
-      - name: Commit corrected manifest
+      - name: Commit manifest if changed
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain manifest.json)" ]]; then
-            git config user.name  "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add manifest.json
-            git commit -m "auto-correct manifest (manual edit reverted)"
+            git commit -m "chore: regenerate manifest.json from dated sermon JSON"
             git push
           else
-            echo "Manifest already correct."
+            echo "manifest.json already matches dated JSON files; nothing to commit."
           fi
