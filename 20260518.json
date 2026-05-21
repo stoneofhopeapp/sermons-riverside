@@ -20906,6 +20906,21 @@
     "youtube_id": "8xDE-GRV9m4"
   },
   {
+    "sermon_key": "riverside/20200809/sermononthemountamatteroftheheart",
+    "book": "Matthew",
+    "book_ord": 40,
+    "chapter_range": "Matthew 5:21-32",
+    "title": "Sermon On The Mount: A Matter Of The Heart",
+    "preacher": "Pete Jansen",
+    "date": "Aug 9/20",
+    "audio_url": "https://riversidecalvary.com/wp-content/uploads/messages/SOTM/200809_SOTM_Matt_5_21-32_PJ.mp3",
+    "video_url": "https://youtu.be/n9rJLltkHj8",
+    "chapters": [
+      5
+    ],
+    "youtube_id": "n9rJLltkHj8"
+  },
+  {
     "sermon_key": "riverside/20200802/sermononthemountsaltandlight",
     "book": "Matthew",
     "book_ord": 40,
@@ -22539,38 +22554,6 @@
     "book_ord": null,
     "chapter_range": "",
     "chapters": []
-  },
-  {
-    "sermon_key": "riverside/20250727/flourishingorfading_xnH7yu0CDDY",
-    "title": "Flourishing or Fading",
-    "preacher": "Brent Smith",
-    "date": "Jul 27/25",
-    "intro": "Psalm 92 serves as a reflection on the nature of God’s goodness and eternal faithfulness, emphasizing the importance of continual praise and worship. It presents a contrast between the flourishing of the righteous and the ultimate downfall of the wicked, illustrating the assurance found in living a life rooted in God’s love and righteousness.",
-    "audio_url": "https://riversidecalvaary.com/wp-content/uploads/messages/psalms/250727_Psalm_92.mp3",
-    "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2025/08/Psalm-42.pdf",
-    "video_url": "https://www.youtube.com/embed/xnH7yu0CDDY?si=W_A9--WotfgExNTI",
-    "youtube_id": "xnH7yu0CDDY",
-    "book_ord": 19,
-    "chapter_range": "Psalm 92",
-    "chapters": [
-      92
-    ]
-  },
-  {
-    "sermon_key": "riverside/20250713/dwellinginthehouseofthelord_vHCwgB2dswA",
-    "title": "Dwelling in the House of the Lord",
-    "preacher": "Jeff Thompson",
-    "date": "Jul 13/25",
-    "intro": "Psalm 84 is a song about the joy and blessedness of being in God’s presence, specifically within the Temple in Jerusalem. It expresses a deep longing for that presence, even describing a journey through hardship as preferable to being far from God. The psalm emphasizes God as a source of strength, protection, and joy for those who seek Him.",
-    "audio_url": "https://riversidecalvary.cpomwp-content/uploads/messages/psalms/250713_Psalm_84.mp3",
-    "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2025/08/Psalm-42.pdf",
-    "video_url": "https://www.youtube.com/embed/vHCwgB2dswA?si=V74I72zd43cuT6tF",
-    "youtube_id": "vHCwgB2dswA",
-    "book_ord": 19,
-    "chapter_range": "Psalm 84",
-    "chapters": [
-      84
-    ]
   },
   {
     "sermon_key": "riverside/20260421/fightthegoodfight",
