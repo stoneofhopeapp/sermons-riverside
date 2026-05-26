@@ -22413,9 +22413,10 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/Worship/250820_Church_In_The_Parkb.pdf",
     "video_url": "https://www.youtube.com/embed/tWVtIryJ9Y8?si=6MLzia-icQv43fWd",
     "youtube_id": "tWVtIryJ9Y8",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 66,
+    "chapter_range": "Revelation",
+    "chapters": [],
+    "book": "Revelation"
   },
   {
     "sermon_key": "riverside/20250727/flourishingorfading",
@@ -22537,9 +22538,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2025/08/Psalm-42.pdf",
     "video_url": "https://www.youtube.com/embed/Wa6Agws9k1E?si=DggpmBe7tOK5mkN1",
     "youtube_id": "Wa6Agws9k1E",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 8,
+    "chapter_range": "Ruth 1",
+    "chapters": [
+      1
+    ],
+    "book": "Ruth"
   },
   {
     "sermon_key": "riverside/20250831/helpforadowncastsoul",
@@ -22551,9 +22555,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2025/08/Psalm-42.pdf",
     "video_url": "https://www.youtube.com/embed/4wVr4jeF-ro?si=zsM01hwUU9iWx5LP",
     "youtube_id": "4wVr4jeF-ro",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 19,
+    "chapter_range": "Psalms 42",
+    "chapters": [
+      42
+    ],
+    "book": "Psalms"
   },
   {
     "sermon_key": "riverside/20260419/fightthegoodfight",
@@ -22565,9 +22572,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/O1-EZQPlYXw?si=R29m3oBz2evNrWDA",
     "youtube_id": "O1-EZQPlYXw",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 54,
+    "chapter_range": "1 Timothy 1:12-20",
+    "chapters": [
+      1
+    ],
+    "book": "1 Timothy"
   },
   {
     "sermon_key": "riverside/20260416/davidsheartinthewaiting",
@@ -22579,9 +22589,14 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/Wy9gCeDcWqk?si=siC1c0uH3QlNppT3",
     "youtube_id": "Wy9gCeDcWqk",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 10,
+    "chapter_range": "2 Samuel 1-3",
+    "chapters": [
+      1,
+      2,
+      3
+    ],
+    "book": "2 Samuel"
   },
   {
     "sermon_key": "riverside/20260412/guardingthegospel",
@@ -22593,9 +22608,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/6RDzrVwLykk?si=3hWD9VxZzPjddJEb",
     "youtube_id": "6RDzrVwLykk",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 54,
+    "chapter_range": "1 Timothy 1:1-11",
+    "chapters": [
+      1
+    ],
+    "book": "1 Timothy"
   },
   {
     "sermon_key": "riverside/20260405/declarationofthepromise",
@@ -22649,9 +22667,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/p6CfJhrF5Gs?si=l4U25mn6sFXevAkK",
     "youtube_id": "p6CfJhrF5Gs",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 19,
+    "chapter_range": "Psalms 127",
+    "chapters": [
+      127
+    ],
+    "book": "Psalms"
   },
   {
     "sermon_key": "riverside/20260318/fromdistresstovictory",
@@ -22663,9 +22684,13 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/h-xI95TIYX4?si=Uk62WWeku7I0Olrd",
     "youtube_id": "h-xI95TIYX4",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 9,
+    "chapter_range": "1 Samuel 30-31",
+    "chapters": [
+      30,
+      31
+    ],
+    "book": "1 Samuel"
   },
   {
     "sermon_key": "riverside/20260315/areyouready",
@@ -22677,9 +22702,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/bU_MGpGAa3c?si=Bf75l1UFsSIUvb2e",
     "youtube_id": "bU_MGpGAa3c",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 62,
+    "chapter_range": "1 John 2:28-29",
+    "chapters": [
+      2
+    ],
+    "book": "1 John"
   },
   {
     "sermon_key": "riverside/20260308/dutydisciplineanddiligence",
@@ -22691,9 +22719,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/71wlRfhNRxw?si=telq0f-Rzef7oJwT",
     "youtube_id": "71wlRfhNRxw",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 53,
+    "chapter_range": "2 Thessalonians 3:6-18",
+    "chapters": [
+      3
+    ],
+    "book": "2 Thessalonians"
   },
   {
     "sermon_key": "riverside/20260304/whenleaderslosetheirway",
@@ -22705,9 +22736,13 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/n1SGhYuIuCE?si=7tnb9kY320-6QBLO",
     "youtube_id": "n1SGhYuIuCE",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 9,
+    "chapter_range": "1 Samuel 28-29",
+    "chapters": [
+      28,
+      29
+    ],
+    "book": "1 Samuel"
   },
   {
     "sermon_key": "riverside/20260301/faithfulgodforwardgospel",
@@ -22719,9 +22754,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/yPvP-c90WEE?si=lMArp6QsGDjI2Eqg",
     "youtube_id": "yPvP-c90WEE",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 53,
+    "chapter_range": "2 Thessalonians 3:1-5",
+    "chapters": [
+      3
+    ],
+    "book": "2 Thessalonians"
   },
   {
     "sermon_key": "riverside/20260222/secureandsteadfast",
@@ -22733,9 +22771,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/cSOpKHQlE3w?si=BvMonGJZUCPiG_C5",
     "youtube_id": "cSOpKHQlE3w",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 53,
+    "chapter_range": "2 Thessalonians 2:13-17",
+    "chapters": [
+      2
+    ],
+    "book": "2 Thessalonians"
   },
   {
     "sermon_key": "riverside/20260218/fromvictorytovulnerability",
@@ -22761,9 +22802,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/hkMJQqqjk80?si=8ORjvw5mvLk7e69W",
     "youtube_id": "hkMJQqqjk80",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 53,
+    "chapter_range": "2 Thessalonians 2:9-12",
+    "chapters": [
+      2
+    ],
+    "book": "2 Thessalonians"
   },
   {
     "sermon_key": "riverside/20260208/therestrainerandtheantichrist",
@@ -22775,9 +22819,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/b6G_9U9iEJc?si=h5Nw9ctLSTPymyIG",
     "youtube_id": "b6G_9U9iEJc",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 53,
+    "chapter_range": "2 Thessalonians 2:1-8",
+    "chapters": [
+      2
+    ],
+    "book": "2 Thessalonians"
   },
   {
     "sermon_key": "riverside/20260204/waitingongodwhenyourewronged",
@@ -22789,9 +22836,13 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/zFpX7LxiU9c?si=HZCIOtIPSCOxdR2K",
     "youtube_id": "zFpX7LxiU9c",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 9,
+    "chapter_range": "1 Samuel 24-25",
+    "chapters": [
+      24,
+      25
+    ],
+    "book": "1 Samuel"
   },
   {
     "sermon_key": "riverside/20260201/byfaithliveforthingsabove",
@@ -22803,9 +22854,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/za29SydZAxI?si=W6seW2xmY7FVlg-p",
     "youtube_id": "za29SydZAxI",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 58,
+    "chapter_range": "Hebrews 11:8-16",
+    "chapters": [
+      11
+    ],
+    "book": "Hebrews"
   },
   {
     "sermon_key": "riverside/20260201/thelifeoffaith",
@@ -22845,9 +22899,18 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/90qE4pGnrmM?si=fmtfgGlx0uSp0WXk",
     "youtube_id": "90qE4pGnrmM",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 53,
+    "chapter_range": "2 Thessalonians 6-12",
+    "chapters": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "book": "2 Thessalonians"
   },
   {
     "sermon_key": "riverside/20260121/ontherunbutnotalone",
@@ -22859,9 +22922,13 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/1Qz7dtRzVpA?si=5Zk-N_gvXFqB4apR",
     "youtube_id": "1Qz7dtRzVpA",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 9,
+    "chapter_range": "1 Samuel 22-23",
+    "chapters": [
+      22,
+      23
+    ],
+    "book": "1 Samuel"
   },
   {
     "sermon_key": "riverside/20260118/strengthinsuffering",
@@ -22873,9 +22940,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/NOWAgOH_CGU?si=O72LbpyF6XVAKF3S",
     "youtube_id": "NOWAgOH_CGU",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 53,
+    "chapter_range": "2 Thessalonians 1:1-5",
+    "chapters": [
+      1
+    ],
+    "book": "2 Thessalonians"
   },
   {
     "sermon_key": "riverside/20260111/prophecyupdate",
@@ -22901,9 +22971,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/qSznItsuV1A?si=dg54CAovIzQXrM3W",
     "youtube_id": "qSznItsuV1A",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 52,
+    "chapter_range": "1 Thessalonians 5:12-28",
+    "chapters": [
+      5
+    ],
+    "book": "1 Thessalonians"
   },
   {
     "sermon_key": "riverside/20251228/wideawakeinthelastdays",
@@ -22915,9 +22988,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/_5nv3Ofgn1Q?si=SHRc0ifZr-OUzIJZ",
     "youtube_id": "_5nv3Ofgn1Q",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 52,
+    "chapter_range": "1 Thessalonians 5:1-11",
+    "chapters": [
+      5
+    ],
+    "book": "1 Thessalonians"
   },
   {
     "sermon_key": "riverside/20251224/factcheckingchristmas",
@@ -22957,9 +23033,13 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/P16Ji062sUg?si=2-HIHEhEXLO-fpMs",
     "youtube_id": "P16Ji062sUg",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 9,
+    "chapter_range": "1 Samuel 20-21",
+    "chapters": [
+      20,
+      21
+    ],
+    "book": "1 Samuel"
   },
   {
     "sermon_key": "riverside/20251214/whyibelieveinapretribrapture",
@@ -22985,9 +23065,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/xYce0WIz4kE?si=xb6CG8auFQJJYmu5",
     "youtube_id": "xYce0WIz4kE",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 52,
+    "chapter_range": "1 Thessalonians 4:13-18",
+    "chapters": [
+      4
+    ],
+    "book": "1 Thessalonians"
   },
   {
     "sermon_key": "riverside/20251203/leadingbyspearsorbyspirit",
@@ -22999,9 +23082,13 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/bNF-HDni7L0?si=RSDdOPeJbz0BFDDn",
     "youtube_id": "bNF-HDni7L0",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 9,
+    "chapter_range": "1 Samuel 18-19",
+    "chapters": [
+      18,
+      19
+    ],
+    "book": "1 Samuel"
   },
   {
     "sermon_key": "riverside/20251130/sanctifiedstepsforsaints",
@@ -23041,9 +23128,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/mYXp9FH3zMI?si=FRDdrFcmljMYP5fi",
     "youtube_id": "mYXp9FH3zMI",
-    "book_ord": null,
-    "chapter_range": "The Battle Belongs to The Lord",
-    "chapters": []
+    "book_ord": 9,
+    "chapter_range": "1 Samuel 17",
+    "chapters": [
+      17
+    ],
+    "book": "1 Samuel"
   },
   {
     "sermon_key": "riverside/20251116/standingfirminfaith",
@@ -23055,9 +23145,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/0sGW02hbTqc?si=B_w5mRoB5gLSt-rs",
     "youtube_id": "0sGW02hbTqc",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 52,
+    "chapter_range": "1 Thessalonians 3:1-8",
+    "chapters": [
+      3
+    ],
+    "book": "1 Thessalonians"
   },
   {
     "sermon_key": "riverside/20251105/davidanointedking",
@@ -23083,9 +23176,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/rrGTFDkuGN8?si=V5G-LQ4G7hrpG23d",
     "youtube_id": "rrGTFDkuGN8",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 52,
+    "chapter_range": "1 Thessalonians 2.13-20",
+    "chapters": [
+      2
+    ],
+    "book": "1 Thessalonians"
   },
   {
     "sermon_key": "riverside/20251026/marksofaworthywalk",
@@ -23181,9 +23277,13 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/fYS87xaGbQM?si=dyc67TfF6hVfE2NV",
     "youtube_id": "fYS87xaGbQM",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 8,
+    "chapter_range": "Ruth 3-4",
+    "chapters": [
+      3,
+      4
+    ],
+    "book": "Ruth"
   },
   {
     "sermon_key": "riverside/20250921/fromgleaningtograce",
@@ -23195,9 +23295,12 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_1_1-11.pdf",
     "video_url": "https://www.youtube.com/embed/4FA65ay5eAU?si=6qx4QkcdKRpZuc9-",
     "youtube_id": "4FA65ay5eAU",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 8,
+    "chapter_range": "Ruth 2",
+    "chapters": [
+      2
+    ],
+    "book": "Ruth"
   },
   {
     "sermon_key": "riverside/20260506/anewbeginningforisrael",
@@ -23209,9 +23312,14 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_2_1-7.pdf",
     "video_url": "https://www.youtube.com/embed/BwkDZKOhehs?si=4vOILVOsWW3sXtpK",
     "youtube_id": "BwkDZKOhehs",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 10,
+    "chapter_range": "2 Samuel 4-6",
+    "chapters": [
+      4,
+      5,
+      6
+    ],
+    "book": "2 Samuel"
   },
   {
     "sermon_key": "riverside/20260503/dontbesurprised",
@@ -23237,8 +23345,79 @@
     "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/04/1Timothy_2_1-7.pdf",
     "video_url": "https://www.youtube.com/embed/x8XXO-SHeGE?si=vuicz2WtgO5j9m74",
     "youtube_id": "x8XXO-SHeGE",
-    "book_ord": null,
-    "chapter_range": "",
-    "chapters": []
+    "book_ord": 54,
+    "chapter_range": "1 Timothy 2:1-7",
+    "chapters": [
+      2
+    ],
+    "book": "1 Timothy"
+  },
+  {
+    "sermon_key": "riverside/20260524/whenthechurchgetsitright",
+    "title": "When The Church Gets It Right",
+    "preacher": "Brent Smith",
+    "date": "May 24/26",
+    "intro": "This passage outlines the qualifications for church deacons and highlights the profound mystery of faith and godliness in Christ that the whole church is to protect and uphold.",
+    "audio_url": "https://riversidecalvary.com/wp-content/uploads/messages/1-2timothy/260524_2_timothy_3_8-16.mp3",
+    "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/05/1Timothy_3_8-16.pdf",
+    "video_url": "https://www.youtube.com/embed/8rTwO_p0KLk?si=Yx1DRmarM9bYIHxL",
+    "youtube_id": "8rTwO_p0KLk",
+    "book_ord": 55,
+    "chapter_range": "2 Timothy 3:8-16",
+    "chapters": [
+      3
+    ],
+    "book": "2 Timothy"
+  },
+  {
+    "sermon_key": "riverside/20260521/thedavidiccovenant",
+    "title": "The Davidic Covenant",
+    "preacher": "Brent Smith",
+    "date": "May 21/26",
+    "intro": "In 2 Samuel 7, King David expresses his desire to build a permanent temple for God, noting that the Ark of the Covenant is housed in a tent. God redirects David, promising instead to build a “house” for David. This covenant promises that David’s descendants will rule, his son will build the temple, and his throne will be established eternally—a prophecy ultimately fulfilled in Jesus Christ.",
+    "audio_url": "https://riversidecalvary.com/wp-content/uploads/messages/1-2samuel/260521_2_Samuel_7.mp3",
+    "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/05/2-Samuel_7.pdf",
+    "video_url": "https://www.youtube.com/embed/mCw5NH91XJA?si=_3kvhoh5flBtOdCX",
+    "youtube_id": "mCw5NH91XJA",
+    "book_ord": 10,
+    "chapter_range": "2 Samuel 7",
+    "chapters": [
+      7
+    ],
+    "book": "2 Samuel"
+  },
+  {
+    "sermon_key": "riverside/20260517/whatgodrequiresinaleader",
+    "title": "What God Requires In A Leader",
+    "preacher": "Brent Smith",
+    "date": "May 17/26",
+    "intro": "This passage outlines the qualifications for church leadership, emphasizing the moral and spiritual integrity required in those who aspire to be overseers or leaders within the church.",
+    "audio_url": "https://riversidecalvary.com/wp-content/uploads/messages/1-2timothy/260517_1_timothy_3_1-7.mp3",
+    "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/05/1Timothy_3_1-7.pdf",
+    "video_url": "https://www.youtube.com/embed/LwP1w36kkuE?si=Ve9rUrkHYP-e8BMS",
+    "youtube_id": "LwP1w36kkuE",
+    "book_ord": 54,
+    "chapter_range": "1 Timothy 3:1-7",
+    "chapters": [
+      3
+    ],
+    "book": "1 Timothy"
+  },
+  {
+    "sermon_key": "riverside/20260510/orderinworshiphonourinroles",
+    "title": "Order In Worship, Honour In Roles",
+    "preacher": "Brent Smith",
+    "date": "May 10/26",
+    "intro": "In this passage Paul addresses the church’s conduct during worship and instructs men and women on their distinct roles and responsibilities.",
+    "audio_url": "https://riversidecalvary.com/wp-content/uploads/messages/1-2timothy/260510_1_timothy_2_8-15.mp3",
+    "pdf_url": "https://riversidecalvary.com/wp-content/uploads/2026/05/1Timothy_2_8-15.pdf",
+    "video_url": "https://www.youtube.com/embed/HCHMFbea6TA?si=YmdsxP9WmLOirp9v",
+    "youtube_id": "HCHMFbea6TA",
+    "book_ord": 54,
+    "chapter_range": "1 Timothy 2:8-15",
+    "chapters": [
+      2
+    ],
+    "book": "1 Timothy"
   }
 ]
