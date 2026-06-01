@@ -1,7 +1,9 @@
 {
-  "latestVersion": "20260524",
+  "latestVersion": "series",
   "files": [
     "20260518.json",
-    "20260524.json"
+    "20260524.json",
+    "20260531.json",
+    "series.json"
   ]
 }
