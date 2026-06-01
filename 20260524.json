@@ -1,6 +1,8 @@
 [
   {
-    "sermon_key": "riverside/20260524/whenthechurchgetsitright",
+    "id": "6a166ac5f315e27a81e5b127",
+    "preachedOn": "20260524",
+    "seriesId": "6a166ac5f315e27a81e5b126",
     "title": "When The Church Gets It Right",
     "preacher": "Brent Smith",
     "date": "May 24/26",
@@ -14,10 +16,13 @@
     "chapters": [
       3
     ],
-    "book": "2 Timothy"
+    "book": "2 Timothy",
+    "churchKey": "riverside"
   },
   {
-    "sermon_key": "riverside/20260521/thedavidiccovenant",
+    "id": "6a166ac5f315e27a81e5b11e",
+    "preachedOn": "20260521",
+    "seriesId": "6a166ac5f315e27a81e5b11d",
     "title": "The Davidic Covenant",
     "preacher": "Brent Smith",
     "date": "May 21/26",
@@ -31,10 +36,13 @@
     "chapters": [
       7
     ],
-    "book": "2 Samuel"
+    "book": "2 Samuel",
+    "churchKey": "riverside"
   },
   {
-    "sermon_key": "riverside/20260517/whatgodrequiresinaleader",
+    "id": "6a166ac5f315e27a81e5b123",
+    "preachedOn": "20260517",
+    "seriesId": "6a166ac5f315e27a81e5b121",
     "title": "What God Requires In A Leader",
     "preacher": "Brent Smith",
     "date": "May 17/26",
@@ -48,10 +56,13 @@
     "chapters": [
       3
     ],
-    "book": "1 Timothy"
+    "book": "1 Timothy",
+    "churchKey": "riverside"
   },
   {
-    "sermon_key": "riverside/20260510/orderinworshiphonourinroles",
+    "id": "6a166ac5f315e27a81e5b122",
+    "preachedOn": "20260510",
+    "seriesId": "6a166ac5f315e27a81e5b121",
     "title": "Order In Worship, Honour In Roles",
     "preacher": "Brent Smith",
     "date": "May 10/26",
@@ -65,6 +76,7 @@
     "chapters": [
       2
     ],
-    "book": "1 Timothy"
+    "book": "1 Timothy",
+    "churchKey": "riverside"
   }
 ]
