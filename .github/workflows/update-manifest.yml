@@ -52,7 +52,10 @@ jobs:
               for f in os.listdir(".")
               if f.endswith(".json") and f != "manifest.json"
           )
-          latest = max((f[:-5] for f in files), default=None)
+          
+          # 寻找最大版本号时，排除掉所有以 'series' 开头的文件
+          latest = max((f[:-5] for f in files if not f.startswith("series")), default=None)
+          
           payload = {"latestVersion": latest, "files": files}
           with open("manifest.json", "w", encoding="utf-8") as fp:
               json.dump(payload, fp, indent=2)
