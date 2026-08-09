@@ -1,9 +1,11 @@
 {
-  "latestVersion": "20260531",
+  "latestVersion": "20260802",
   "files": [
     "20260518.json",
     "20260524.json",
     "20260531.json",
-    "series_20260528.json"
+    "20260802.json",
+    "series_20260528.json",
+    "series_20260802.json"
   ]
 }
